@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: ru.stqa.selenium.AdminTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.073 s <<< FAILURE! - in ru.stqa.selenium.AdminTest
+checkingProductLogs(ru.stqa.selenium.AdminTest)  Time elapsed: 1.054 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Command duration or timeout: 231 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-IBJU4D36VEI', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+
+checkingProductLogs(ru.stqa.selenium.AdminTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "ru.stqa.selenium.TestBase.driver" is null
+
